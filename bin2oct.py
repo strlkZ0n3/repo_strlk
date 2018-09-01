@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-def dec2oct():
+# -*- coding: utf-8 -*-
+def bin2oct():
         while True:
                 try:
                         n = int(input('Ingrese un entero del sistema decimal: '))
@@ -22,4 +23,4 @@ def dec2oct():
                 lis_var = lis_var + str(x)
         print('\nEn hexadecimal es:'+2*'\n'+lis_var)
         input('Presione cualquier tecla para salir...')
-dec2oct()
+bin2oct()
